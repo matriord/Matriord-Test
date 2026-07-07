@@ -1,0 +1,9 @@
+# Local dev server + packaging helpers (not needed for hosting)
+serve.py
+make_itch_zip.py
+itch-upload.zip
+.claude/
+
+# Compressed build backups — GitHub Pages can't send Content-Encoding,
+# so we host the uncompressed WEB.data / WEB.wasm / WEB.framework.js instead.
+Build/*.gz
